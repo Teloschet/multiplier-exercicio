@@ -1,4 +1,4 @@
-# Exércicio CRUD Multiplier
+# Exércicio CRUD - Multiplier
 **Sistema de gerenciamento de Produtos.**
 
 ### Requisitos
@@ -23,9 +23,9 @@ php artisan key:generate
 ```bash
 DB_CONNECTION=pgsql or mysql
 DB_HOST=127.0.0.1
-DB_PORT=5432 or 3306/3007(mariadb)
+DB_PORT=5432(postgresql) or 3306(mysql) / 3007(mariadb)
 DB_DATABASE=multiplier
-DB_USERNAME=postgres or laravel
+DB_USERNAME=postgres or laravel or root
 DB_PASSWORD=*****
 ```
 
