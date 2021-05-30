@@ -1,4 +1,4 @@
-# Exércicio CRUD - Multiplier
+# Exercício CRUD - Multiplier
 **Sistema de gerenciamento de Produtos.**
 
 ### Requisitos
