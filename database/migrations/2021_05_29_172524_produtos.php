@@ -16,7 +16,7 @@ class Produtos extends Migration
         Schema::create('produtos', function (Blueprint $table) {
             $table->increments('id');
             $table->integer('categoria_id')->unsigned();
-            $table->string('quantidade');
+            $table->string('produto');
             $table->double('price', 10, 2);
             $table->timestamps();
         });
